@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Slammers Beach Volleyball</title>
+<link href="header.css" rel="stylesheet" type="text/css">
+<link href="nav.css" rel="stylesheet" type="text/css">
+<link href="bod.css" rel="stylesheet" type="text/css">
+<link href="foot.css" rel="stylesheet" type="text/css">
+</head>
+<style>
+	#formwrapper {
+		width: 550px;
+		height: auto;
+		background-color: #FFF;
+		
+	}
+	form {
+		width: 300px;
+		height: auto;
+		background-color: #FFF;
+	}
+	fieldset {
+		background-color: #FFF;
+		border: none;
+		padding-bottom: 10px;
+	}
+	label {
+		width: 250px;
+		display: block;
+		font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+		font-size: 11px;
+		color: #000;
+		margin-top: 5px;
+		margin-right: 0px;
+		margin-bottom: 5px;
+		margin-left: 0px;
+	}
+	input {
+		width: 250px;
+		border: thin solid #6CF;
+		margin-bottom: 10px;
+	}
+	textarea {
+		width: 250px;
+		border: thing solid #6CF;
+		margin-bottom: 10px;
+	}
+	.btn {
+		width: 100px;
+		height: 20px;
+		font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+		color: #FFF;
+		font-weight: bold;
+		background-color: #6CF;
+		margin-left: 10px;
+		float: left;
+	}
+	.chk {
+		width: 250px;
+		display: block;
+		font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+		font-size: 11px;
+		color: #000;
+		margin-top: 5px;
+		margin-right: 0px;
+		margin-bottom: -15px;
+		margin-left: 40px;
+	}
+</style>
+<body>
+
+<header>
+
+</header>
+
+
+<nav>
+	<table width="100%" border="0">
+ 		<tbody>
+    		<tr>
+      			<td width="25%"><a href="index.html">Home</a></td>
+      			<td width="25%"><a href="sign.html">Sign up</a></td>
+      			<td width="25%"><a href="contact.html">Contact</a></td>
+      			<td width="25%"><a href="ann.html">Annoncements</a></td>
+    		</tr>
+  		</tbody>
+	</table>	
+</nav>
+
+    
+<table width="100%" border="0" class="bod">
+   <tbody
+    <tr>
+      <td width="70%">
+      <h1>
+      	Sign Up
+      </h1>
+      <br>
+      To add your team to the competition simply enter your teams details in the required fields below.
+      <br>
+      <div id="formwrapper">
+      	<form method="post">
+      		<fieldset>
+      		
+			<label for="name">Your Name:</label>
+			<input name="name" type="text" size="40" maxlength="100">
+			<br>
+			<label for="phone">Your Phone Number:</label>
+			<input name="phone" type="text" size="40" maxlength="100">
+			<br>
+			<label for="email">Your Email:</label>
+			<input name="email" type="text" size="40" maxlength="100">
+			<br>
+			<label for="day">Select the day you wish to play:</label>
+			<select name="day">
+				<option>Monday</option>
+				<option>Tuesday</option>
+				<option>Wednesday</option>
+				<option>Thursday</option>
+				<option>Friday</option>
+				<option>Saturday</option>
+			</select>
+			<br>
+			<label for="time">Select the time you would like to play:</label>
+			<select name="time">
+				<option>Afternoon</option>
+				<option>Evening</option>
+			</select>
+			<br>
+			<p>
+				<label for="check">Have you read the <a href="guid.html">playing guidlines</a>?</label>
+			    <label class="chk">Yes</label>
+			    <input type="checkbox" name="Guidlines" value="checkbox" id="Guidlines_0"> 
+			  	<label class="chk">No</label>
+			    <input type="checkbox" name="Guidlines" value="checkbox" id="Guidlines_1">
+			</p>
+			<input name="submit" type="submit" class="btn" formmethod="POST" value="Submit">
+			</fieldset>
+      	</form>
+      </div>
+      	
+      </td>
+      <td width="30%"></td>
+    </tr>
+  </tbody>
+</table>
+
+<footer>
+	<table width="100%" border="0">
+  		<tbody>
+    		<tr>
+      			<td width="15%">&nbsp;</td>
+      			<td></td>
+    		</tr>
+  		</tbody>
+	</table>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+@charset "utf-8";
+.bod {
+	width: 100%;
+	text-align: left;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #1369E7;
+	border-top: medium solid #093472;
+}
